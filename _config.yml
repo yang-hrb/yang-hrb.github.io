@@ -1,3 +1,37 @@
-theme: jekyll-theme-cayman
-title: Yang's Blog
-description: AI, Coding and fun
+# 站点基础
+title: Yang's Page
+description: 记录 AI / 编程 / 折腾
+url: https://www.yangyu.us      # 绑定 www 后建议写这个
+baseurl: ""                     # 用户主页留空
+
+# 使用 Minimal Mistakes 远程主题（GitHub Pages 兼容）
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# 语言/作者
+locale: zh
+author:
+  name: Yang Yu
+
+# 插件（GitHub Pages 支持的）
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-seo-tag
+paginate: 5
+paginate_path: "/page:num/"
+
+# 导航（与 _data/navigation.yml 对应）
+collections:
+  posts:
+    output: true
+
+# 社交（可选）
+footer:
+  links:
+    - label: GitHub
+      icon: "fab fa-github"
+      url: "https://github.com/yang-hrb"
+
+# 主题配置（常用）
+theme_skin: default
+minimal_mistakes_skin: default

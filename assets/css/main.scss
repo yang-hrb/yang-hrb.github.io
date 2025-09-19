@@ -1,0 +1,6 @@
+---
+# 这段三杠是故意的 Front Matter，让 Jekyll 处理 SCSS
+---
+
+@import "minimal-mistakes/skins/default"; // 可换皮肤
+@import "minimal-mistakes";               // 核心样式
