@@ -17,6 +17,14 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-feed         # ✅ 自动生成 /feed.xml
+  - jekyll-sitemap      # ✅ 自动生成 /sitemap.xml
+
+# Feed 配置（可选，默认就是 feed.xml，可写可不写）
+feed:
+  path: feed.xml
+
+# 分页
 paginate: 5
 paginate_path: "/page:num/"
 
